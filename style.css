@@ -33,6 +33,13 @@ nav {
     font-weight: 400;
 }
 
+nav a {
+    text-decoration: none;
+    color: var(--bg-color);
+    margin: 0 2rem 1rem 0rem;
+    font-size: 1.2rem;
+}
+
 nav a:hover {
     text-decoration: underline;
     transform: scale(0.90);
@@ -43,6 +50,10 @@ nav a:hover {
     margin: 5rem;
    }
 
+   .grafico {
+    margin-top: 5rem;
+   }
+   
    .graficos-container_texto {
     font-size: 1.3rem;
     text-align: center;
